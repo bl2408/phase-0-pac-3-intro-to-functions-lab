@@ -15,6 +15,14 @@ function logWhisper(str){
 }
 
 function sayHiToHeadphonedRoommate(str){
+/*    if(str === str.toLowerCase()){
+        return "I can\'t hear you!";
+    }else if(str === str.toUpperCase()){
+        return "YES INDEED!";
+    }else if(str === "Let's have dinner together!"){
+        return "I would love to!";
+    }
+*/
     switch(str){
         case str.toLowerCase():
             return "I can\'t hear you!";
